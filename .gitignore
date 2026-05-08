@@ -6,8 +6,8 @@ __pycache__/
 *.py[cod]
 
 backend/chroma_store/
+backend/query_records.json
 
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-

@@ -14,6 +14,8 @@ import { TicketService } from '../../services/ticket.service';
   styleUrls: ['./ai-validation.css'],
 })
 export class AiValidation implements OnInit {
+  private readonly finalTriageUserRole = 'Senior Java Developer';
+
   triageResult!: AITriageResult;
   isConfirming = false;
   errorMessage = '';
@@ -35,17 +37,20 @@ export class AiValidation implements OnInit {
     this.isConfirming = true;
     this.errorMessage = '';
 
-    this.ticketService.confirmTicket(this.triageResult).subscribe({
-      next: () => {
-        this.isConfirming = false;
-        this.router.navigate(['/it-dashboard']);
-      },
-      error: () => {
-        this.isConfirming = false;
-        this.errorMessage =
-          'We could not submit the ticket right now. Please try again.';
-      },
-    });
+    this.ticketService
+      .confirmTicket(this.triageResult, this.finalTriageUserRole)
+      .subscribe({
+        next: (triageResult) => {
+          this.triageResult = triageResult;
+          this.isConfirming = false;
+          this.router.navigate(['/it-dashboard']);
+        },
+        error: () => {
+          this.isConfirming = false;
+          this.errorMessage =
+            'We could not submit the ticket right now. Please try again.';
+        },
+      });
   }
 
   cancel(): void {

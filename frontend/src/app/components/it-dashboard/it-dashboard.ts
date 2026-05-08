@@ -15,34 +15,18 @@ export class ItDashboard implements OnInit {
   tickets: AITriageResult[] = [];
   filteredTickets: AITriageResult[] = [];
   isLoading = true;
+  errorMessage = '';
   totalTickets = 0;
   highPriority = 0;
   activeCategory = 'All';
   expandedIndex: number | null = null;
 
-  readonly categories = ['All', 'Network', 'Hardware', 'Software'];
+  categories: string[] = ['All'];
 
   constructor(private readonly ticketService: TicketService) {}
 
   ngOnInit(): void {
-    this.ticketService.getDashboardTickets().subscribe({
-      next: (tickets) => {
-        this.tickets = tickets;
-        this.filteredTickets = tickets;
-        this.totalTickets = this.tickets.length;
-        this.highPriority = this.tickets.filter(
-          (ticket) => ticket.priority === 'High' || ticket.priority === 'Critical',
-        ).length;
-        this.isLoading = false;
-      },
-      error: () => {
-        this.tickets = [];
-        this.filteredTickets = [];
-        this.totalTickets = 0;
-        this.highPriority = 0;
-        this.isLoading = false;
-      },
-    });
+    this.loadStoredQueries();
   }
 
   applyFilter(category: string): void {
@@ -50,13 +34,48 @@ export class ItDashboard implements OnInit {
     this.expandedIndex = null;
 
     if (category === 'All') {
-      this.filteredTickets = this.tickets;
+      this.loadStoredQueries();
       return;
     }
 
     this.filteredTickets = this.tickets.filter(
       (ticket) => ticket.category === category,
     );
+  }
+
+  formatCategory(category: string): string {
+    return category.replace(/_/g, ' ');
+  }
+
+  private loadStoredQueries(): void {
+    this.isLoading = true;
+    this.errorMessage = '';
+
+    this.ticketService.getStoredQueries().subscribe({
+      next: (tickets) => {
+        this.setTickets(tickets);
+        this.isLoading = false;
+      },
+      error: () => {
+        this.setTickets([]);
+        this.errorMessage =
+          'We could not load stored queries right now. Please try again.';
+        this.isLoading = false;
+      },
+    });
+  }
+
+  private setTickets(tickets: AITriageResult[]): void {
+    this.tickets = tickets;
+    this.filteredTickets = tickets;
+    this.totalTickets = tickets.length;
+    this.highPriority = tickets.filter(
+      (ticket) => ticket.priority === 'High' || ticket.priority === 'Critical',
+    ).length;
+    this.categories = [
+      'All',
+      ...new Set(tickets.map((ticket) => ticket.category)),
+    ];
   }
 
   toggleTicket(index: number): void {

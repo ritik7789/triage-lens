@@ -14,6 +14,12 @@ import { TicketService } from '../../services/ticket.service';
   styleUrls: ['./user-input.css'],
 })
 export class UserInput {
+  private readonly staticTicketPayload = {
+    subject: 'Display issue',
+    submitter_role: 'Senior Java Developer',
+    ticket_id: 'INC-1001',
+  } as const;
+
   ticketDescription = '';
   isSubmitting = false;
   errorMessage = '';
@@ -34,7 +40,7 @@ export class UserInput {
     this.errorMessage = '';
 
     const ticket: RawTicket = {
-      id: `TL-${Date.now()}`,
+      ...this.staticTicketPayload,
       description,
     };
 
