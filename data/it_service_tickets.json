@@ -1,0 +1,962 @@
+[
+  {
+    "ticket_id": "INC-901",
+    "created_date_time": "2026-05-01T08:14:22Z",
+    "created_by_user_id": "USR-8123",
+    "reported_by_role": "Senior Java Developer",
+    "raw_description": "My external Dell 27in monitor keeps flashing green for 2-3 seconds and then dropping signal whenever it's connected through the USB-C dock. Direct HDMI to the laptop works, so I think the dock or port is failing. I have customer demo prep today and can't keep replugging this every 10 mins.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Hardware_BreakFix",
+      "priority": "P2",
+      "assigned_team": "L1 Desktop Support"
+    }
+  },
+  {
+    "ticket_id": "INC-902",
+    "created_date_time": "2026-05-01T09:02:11Z",
+    "created_by_user_id": "USR-4471",
+    "reported_by_role": "HR Specialist",
+    "raw_description": "Laptop battery went from 68% to dead in under 20 minutes during onboarding sessions. It's also swelling a bit near the trackpad area which is worrying. Please replace ASAP, I don't want to keep using it like this.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Hardware_BreakFix",
+      "priority": "P1",
+      "assigned_team": "L1 Desktop Support"
+    }
+  },
+  {
+    "ticket_id": "INC-903",
+    "created_date_time": "2026-05-01T11:47:55Z",
+    "created_by_user_id": "USR-9034",
+    "reported_by_role": "Product Manager",
+    "raw_description": "The docking station at desk 5C-214 is not charging my ThinkPad anymore and Ethernet drops every time I join a Teams call. I swapped cables with a coworker and the issue stayed with the dock.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Hardware_BreakFix",
+      "priority": "P3",
+      "assigned_team": "L1 Desktop Support"
+    }
+  },
+  {
+    "ticket_id": "INC-904",
+    "created_date_time": "2026-05-01T13:26:40Z",
+    "created_by_user_id": "USR-2880",
+    "reported_by_role": "Finance Analyst",
+    "raw_description": "My keyboard is randomly typing double characters and the right Shift key sticks. Tried rebooting and reconnecting Bluetooth. This is making spreadsheet entry miserable.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Hardware_BreakFix",
+      "priority": "P4",
+      "assigned_team": "L1 Desktop Support"
+    }
+  },
+  {
+    "ticket_id": "INC-905",
+    "created_date_time": "2026-05-02T07:51:18Z",
+    "created_by_user_id": "USR-6712",
+    "reported_by_role": "UX Designer",
+    "raw_description": "The stylus on my Surface Laptop Studio stopped pairing after yesterday's firmware update. Pen input cuts in and out, and Photoshop is unusable for annotation reviews. Need help today if possible.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Hardware_BreakFix",
+      "priority": "P2",
+      "assigned_team": "EUC Engineering"
+    }
+  },
+  {
+    "ticket_id": "INC-906",
+    "created_date_time": "2026-05-02T10:09:03Z",
+    "created_by_user_id": "USR-1145",
+    "reported_by_role": "Customer Success Manager",
+    "raw_description": "Webcam on my laptop has gone fully black in Zoom and Teams, but the privacy shutter is open. Device manager briefly sees it and then it disappears. I have back-to-back customer calls all afternoon.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Hardware_BreakFix",
+      "priority": "P2",
+      "assigned_team": "L1 Desktop Support"
+    }
+  },
+  {
+    "ticket_id": "INC-907",
+    "created_date_time": "2026-05-02T14:37:49Z",
+    "created_by_user_id": "USR-5599",
+    "reported_by_role": "Legal Counsel",
+    "raw_description": "My office phone headset is only outputting audio on the left side and the mic sounds robotic according to others. Swapped USB ports, same problem. Please replace it before tomorrow's contract review calls.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Hardware_BreakFix",
+      "priority": "P3",
+      "assigned_team": "L1 Desktop Support"
+    }
+  },
+  {
+    "ticket_id": "INC-908",
+    "created_date_time": "2026-05-03T08:05:31Z",
+    "created_by_user_id": "USR-7420",
+    "reported_by_role": "Sales Executive",
+    "raw_description": "The laptop hinge on my company MacBook is loose and the screen won't stay upright unless it's leaned against something. Not urgent-urgent, but it's getting worse and I'm traveling next week.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Hardware_BreakFix",
+      "priority": "P3",
+      "assigned_team": "L1 Desktop Support"
+    }
+  },
+  {
+    "ticket_id": "INC-909",
+    "created_date_time": "2026-05-03T15:22:57Z",
+    "created_by_user_id": "USR-3888",
+    "reported_by_role": "QA Engineer",
+    "raw_description": "Second monitor on bench lab station QA-07 has visible horizontal lines and goes blank when the refresh rate is set above 60Hz. We use it for device testing, so can someone check if the panel is dying?",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Hardware_BreakFix",
+      "priority": "P3",
+      "assigned_team": "EUC Engineering"
+    }
+  },
+  {
+    "ticket_id": "INC-910",
+    "created_date_time": "2026-05-01T08:49:06Z",
+    "created_by_user_id": "USR-2077",
+    "reported_by_role": "Backend Engineer",
+    "raw_description": "Requesting RAM upgrade from 16GB to 32GB on my Windows dev laptop. Running 6 Spring Boot services, Docker Desktop, IntelliJ, and local Kafka is freezing the machine multiple times a day. This is now a real productivity blocker.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Device_Upgrades_Provisioning",
+      "priority": "P2",
+      "assigned_team": "IT Procurement"
+    }
+  },
+  {
+    "ticket_id": "INC-911",
+    "created_date_time": "2026-05-01T12:18:41Z",
+    "created_by_user_id": "USR-6550",
+    "reported_by_role": "Data Scientist",
+    "raw_description": "Need SSD expansion or replacement. Current 512GB drive is constantly at 98% because of local model checkpoints and parquet extracts. WSL builds are failing from low disk space.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Device_Upgrades_Provisioning",
+      "priority": "P3",
+      "assigned_team": "IT Procurement"
+    }
+  },
+  {
+    "ticket_id": "INC-912",
+    "created_date_time": "2026-05-02T09:33:24Z",
+    "created_by_user_id": "USR-4821",
+    "reported_by_role": "Engineering Manager",
+    "raw_description": "New hire starting Monday needs a Windows 11 laptop provisioned with admin-approved developer image, VPN, Git, Docker Desktop, Java 21, and access to the corp Wi-Fi profile. Name already in Workday: Ananya Rao.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Device_Upgrades_Provisioning",
+      "priority": "P2",
+      "assigned_team": "IT Procurement"
+    }
+  },
+  {
+    "ticket_id": "INC-913",
+    "created_date_time": "2026-05-02T11:58:58Z",
+    "created_by_user_id": "USR-7204",
+    "reported_by_role": "Mobile Developer",
+    "raw_description": "Please provision a MacBook Pro with 32GB RAM for iOS builds. Xcode simulator stacks + Android Studio on the current 16GB machine are painfully slow, and archive builds are timing out locally.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Device_Upgrades_Provisioning",
+      "priority": "P2",
+      "assigned_team": "IT Procurement"
+    }
+  },
+  {
+    "ticket_id": "INC-914",
+    "created_date_time": "2026-05-02T16:07:12Z",
+    "created_by_user_id": "USR-9001",
+    "reported_by_role": "Recruiter",
+    "raw_description": "I need a loaner laptop for 2 weeks while mine is being repaired. Basic office apps and browser access are enough. Prefer something lightweight since I'm onsite for campus events all week.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Device_Upgrades_Provisioning",
+      "priority": "P4",
+      "assigned_team": "L1 Desktop Support"
+    }
+  },
+  {
+    "ticket_id": "INC-915",
+    "created_date_time": "2026-05-03T07:39:47Z",
+    "created_by_user_id": "USR-3416",
+    "reported_by_role": "Security Engineer",
+    "raw_description": "Requesting a YubiKey replacement and backup key issuance. My primary key is intermittently failing touch auth and I don't want to get locked out during the next prod change window.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Device_Upgrades_Provisioning",
+      "priority": "P2",
+      "assigned_team": "IT Procurement"
+    }
+  },
+  {
+    "ticket_id": "INC-916",
+    "created_date_time": "2026-05-03T10:42:19Z",
+    "created_by_user_id": "USR-7743",
+    "reported_by_role": "Solutions Architect",
+    "raw_description": "Can I get a second 27in monitor added to my setup? I'm usually presenting diagrams on one screen and coding on the other, but sharing and switching windows all day is slowing me down badly.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "Low"
+    },
+    "routing_classification": {
+      "category": "Device_Upgrades_Provisioning",
+      "priority": "P4",
+      "assigned_team": "IT Procurement"
+    }
+  },
+  {
+    "ticket_id": "INC-917",
+    "created_date_time": "2026-05-04T09:14:36Z",
+    "created_by_user_id": "USR-5581",
+    "reported_by_role": "Support Engineer",
+    "raw_description": "Need re-provisioning of my laptop after motherboard replacement. Please re-image with the standard support toolkit, VPN certs, softphone, and Okta Verify. Right now it's just a blank Windows install.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Device_Upgrades_Provisioning",
+      "priority": "P2",
+      "assigned_team": "EUC Engineering"
+    }
+  },
+  {
+    "ticket_id": "INC-918",
+    "created_date_time": "2026-05-04T13:27:02Z",
+    "created_by_user_id": "USR-8610",
+    "reported_by_role": "Frontend Engineer",
+    "raw_description": "My current machine is Intel-based and struggling with local browser/device matrix testing. Requesting approved Apple Silicon upgrade if eligible. Happy to return current asset, just need something that can actually keep up.",
+    "metadata": {
+      "hardware_or_software_flag": "Hardware",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Device_Upgrades_Provisioning",
+      "priority": "P3",
+      "assigned_team": "IT Procurement"
+    }
+  },
+  {
+    "ticket_id": "INC-919",
+    "created_date_time": "2026-05-01T07:58:03Z",
+    "created_by_user_id": "USR-6007",
+    "reported_by_role": "Office Manager",
+    "raw_description": "North side of floor 11 has basically no Wi-Fi again. People can connect to CorpNet but pages spin forever and Teams drops. This has been on/off since Tuesday and it's causing a lot of noise this morning.",
+    "metadata": {
+      "hardware_or_software_flag": "Non-Functional",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "General_IT_NonFunctional",
+      "priority": "P2",
+      "assigned_team": "Network Operations"
+    }
+  },
+  {
+    "ticket_id": "INC-920",
+    "created_date_time": "2026-05-01T10:26:50Z",
+    "created_by_user_id": "USR-3012",
+    "reported_by_role": "Executive Assistant",
+    "raw_description": "Conference room Atlas projector is showing 'No Input' no matter which HDMI cable we use. SVP staff review starts in 30 minutes. Need someone here now please.",
+    "metadata": {
+      "hardware_or_software_flag": "Non-Functional",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "General_IT_NonFunctional",
+      "priority": "P1",
+      "assigned_team": "Workplace Technology"
+    }
+  },
+  {
+    "ticket_id": "INC-921",
+    "created_date_time": "2026-05-01T15:11:44Z",
+    "created_by_user_id": "USR-5339",
+    "reported_by_role": "Payroll Specialist",
+    "raw_description": "Printer PRN-4F-22 is jamming every second job and now has left toner streaks on printed checks. We've already opened and cleared tray 2 twice. Can someone service it today?",
+    "metadata": {
+      "hardware_or_software_flag": "Non-Functional",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "General_IT_NonFunctional",
+      "priority": "P2",
+      "assigned_team": "Workplace Technology"
+    }
+  },
+  {
+    "ticket_id": "INC-922",
+    "created_date_time": "2026-05-02T08:40:21Z",
+    "created_by_user_id": "USR-1290",
+    "reported_by_role": "Marketing Manager",
+    "raw_description": "Need guest Wi-Fi access enabled for external agency visitors tomorrow from 9am-4pm in the 3rd floor training room. They should not have access to internal resources, just internet.",
+    "metadata": {
+      "hardware_or_software_flag": "Non-Functional",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "General_IT_NonFunctional",
+      "priority": "P4",
+      "assigned_team": "Network Operations"
+    }
+  },
+  {
+    "ticket_id": "INC-923",
+    "created_date_time": "2026-05-02T12:03:29Z",
+    "created_by_user_id": "USR-4808",
+    "reported_by_role": "Facilities Coordinator",
+    "raw_description": "Badge reader on the server room outer door is beeping red and not unlocking for approved staff. Physical Security said the hardware looks fine but asked us to open an IT ticket because access control is tied into directory sync.",
+    "metadata": {
+      "hardware_or_software_flag": "Non-Functional",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "General_IT_NonFunctional",
+      "priority": "P2",
+      "assigned_team": "Workplace Technology"
+    }
+  },
+  {
+    "ticket_id": "INC-924",
+    "created_date_time": "2026-05-03T09:19:08Z",
+    "created_by_user_id": "USR-7525",
+    "reported_by_role": "Sales Operations Analyst",
+    "raw_description": "The hot desk area on 6th floor has no network on half the desk ports. Link lights are dark on desks D12-D18. We tried different patch cables already.",
+    "metadata": {
+      "hardware_or_software_flag": "Non-Functional",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "General_IT_NonFunctional",
+      "priority": "P3",
+      "assigned_team": "Network Operations"
+    }
+  },
+  {
+    "ticket_id": "INC-925",
+    "created_date_time": "2026-05-03T11:46:16Z",
+    "created_by_user_id": "USR-8264",
+    "reported_by_role": "Training Lead",
+    "raw_description": "Microphone array in room Cedar picks up loud echo and remote attendees say every sentence repeats. We have onboarding training in there all week. It sounds awful tbh.",
+    "metadata": {
+      "hardware_or_software_flag": "Non-Functional",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "General_IT_NonFunctional",
+      "priority": "P3",
+      "assigned_team": "Workplace Technology"
+    }
+  },
+  {
+    "ticket_id": "INC-926",
+    "created_date_time": "2026-05-04T07:55:54Z",
+    "created_by_user_id": "USR-6098",
+    "reported_by_role": "Receptionist",
+    "raw_description": "Lobby visitor iPad is stuck on Guided Access and won't return to the sign-in app after a reboot. Guests are forming a queue and we are doing manual sign-ins right now.",
+    "metadata": {
+      "hardware_or_software_flag": "Non-Functional",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "General_IT_NonFunctional",
+      "priority": "P2",
+      "assigned_team": "Workplace Technology"
+    }
+  },
+  {
+    "ticket_id": "INC-927",
+    "created_date_time": "2026-05-04T14:12:33Z",
+    "created_by_user_id": "USR-2554",
+    "reported_by_role": "Program Manager",
+    "raw_description": "Cafeteria digital signage is showing a Windows login prompt instead of the usual dashboard. Not business critical but looks pretty bad in a client-heavy office.",
+    "metadata": {
+      "hardware_or_software_flag": "Non-Functional",
+      "urgency_indicator": "Low"
+    },
+    "routing_classification": {
+      "category": "General_IT_NonFunctional",
+      "priority": "P4",
+      "assigned_team": "Workplace Technology"
+    }
+  },
+  {
+    "ticket_id": "INC-928",
+    "created_date_time": "2026-05-01T09:55:15Z",
+    "created_by_user_id": "USR-7128",
+    "reported_by_role": "Site Reliability Engineer",
+    "raw_description": "I'm suddenly unable to assume the `prod-observability-readonly` AWS role through Okta federation. STS returns AccessDenied after MFA even though this worked yesterday. Need this for an active incident review.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Cloud_Access_IAM",
+      "priority": "P1",
+      "assigned_team": "Identity & Access Management"
+    }
+  },
+  {
+    "ticket_id": "INC-929",
+    "created_date_time": "2026-05-01T13:08:42Z",
+    "created_by_user_id": "USR-6344",
+    "reported_by_role": "Machine Learning Engineer",
+    "raw_description": "OpenClaw prompt validator agent is failing deploy because the service account secret was rotated but the new API key doesn't appear to be mounted in the workload identity path. Getting 401 from the internal gateway during startup.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Cloud_Access_IAM",
+      "priority": "P2",
+      "assigned_team": "CloudOps"
+    }
+  },
+  {
+    "ticket_id": "INC-930",
+    "created_date_time": "2026-05-02T07:44:59Z",
+    "created_by_user_id": "USR-5440",
+    "reported_by_role": "Data Engineer",
+    "raw_description": "VPN connects fine but routes to the private analytics VPC are missing after auth, so I can't hit the Redshift endpoint or internal Airflow UI. Split tunnel maybe changed? This started this morning only.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Cloud_Access_IAM",
+      "priority": "P2",
+      "assigned_team": "CloudOps"
+    }
+  },
+  {
+    "ticket_id": "INC-931",
+    "created_date_time": "2026-05-02T10:17:20Z",
+    "created_by_user_id": "USR-1985",
+    "reported_by_role": "Cloud Security Analyst",
+    "raw_description": "Please add me to the Azure subscription reader group for `corp-network-prod`. I'm on the audit response task force and currently blocked from reviewing NSG changes. Manager approval already attached in the portal.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Cloud_Access_IAM",
+      "priority": "P3",
+      "assigned_team": "Identity & Access Management"
+    }
+  },
+  {
+    "ticket_id": "INC-932",
+    "created_date_time": "2026-05-02T15:34:28Z",
+    "created_by_user_id": "USR-7761",
+    "reported_by_role": "Platform Engineer",
+    "raw_description": "My Kubernetes access to the `payments-staging` cluster was removed after last night's RBAC sync. `kubectl auth can-i get pods -n payments` returns no for everything. I still own the service per Backstage.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Cloud_Access_IAM",
+      "priority": "P3",
+      "assigned_team": "CloudOps"
+    }
+  },
+  {
+    "ticket_id": "INC-933",
+    "created_date_time": "2026-05-03T08:23:06Z",
+    "created_by_user_id": "USR-9022",
+    "reported_by_role": "Business Intelligence Developer",
+    "raw_description": "Snowflake SSO is looping back to Okta and then dumping me to an 'invalid relay state' page. I've cleared cookies, tried incognito, same thing. Can't access finance mart dashboards for month-end work.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Cloud_Access_IAM",
+      "priority": "P2",
+      "assigned_team": "Identity & Access Management"
+    }
+  },
+  {
+    "ticket_id": "INC-934",
+    "created_date_time": "2026-05-03T12:52:47Z",
+    "created_by_user_id": "USR-1504",
+    "reported_by_role": "Technical Writer",
+    "raw_description": "Need access to the internal Confluence space `ENG-ARCH` and read-only access to the `docs-assets` S3 bucket. The migration guide links are all dead for me right now.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Low"
+    },
+    "routing_classification": {
+      "category": "Cloud_Access_IAM",
+      "priority": "P4",
+      "assigned_team": "Identity & Access Management"
+    }
+  },
+  {
+    "ticket_id": "INC-935",
+    "created_date_time": "2026-05-04T10:31:14Z",
+    "created_by_user_id": "USR-4894",
+    "reported_by_role": "Release Manager",
+    "raw_description": "Privileged access request for temporary production bastion login isn't completing in CyberArk. Approval shows granted, but session launch fails with 'account not mapped to safe'. Need this before tonight's release cutoff.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Cloud_Access_IAM",
+      "priority": "P2",
+      "assigned_team": "Identity & Access Management"
+    }
+  },
+  {
+    "ticket_id": "INC-936",
+    "created_date_time": "2026-05-04T16:18:30Z",
+    "created_by_user_id": "USR-6603",
+    "reported_by_role": "Developer Advocate",
+    "raw_description": "GitHub Enterprise SSO access for my account is half-broken. I can authenticate, but org membership isn't syncing, so all private repos show 404. Might be SCIM drift? Been broken since Friday.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Cloud_Access_IAM",
+      "priority": "P3",
+      "assigned_team": "Identity & Access Management"
+    }
+  },
+  {
+    "ticket_id": "INC-937",
+    "created_date_time": "2026-05-01T08:11:09Z",
+    "created_by_user_id": "USR-2776",
+    "reported_by_role": "Backend Engineer",
+    "raw_description": "My IntelliJ IDEA Ultimate license expired overnight and it's fallen back to Community, so half the Spring tooling is missing. Please renew or reassign a seat. I need this fixed today.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Software_Licensing",
+      "priority": "P2",
+      "assigned_team": "Software Asset Management"
+    }
+  },
+  {
+    "ticket_id": "INC-938",
+    "created_date_time": "2026-05-01T14:28:18Z",
+    "created_by_user_id": "USR-8021",
+    "reported_by_role": "Contractor QA Analyst",
+    "raw_description": "Requesting Docker Desktop license or approved exception. The app now says commercial use requires sign-in with an entitled org account, and local container-based test env won't start without it.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Software_Licensing",
+      "priority": "P3",
+      "assigned_team": "Software Asset Management"
+    }
+  },
+  {
+    "ticket_id": "INC-939",
+    "created_date_time": "2026-05-02T09:04:33Z",
+    "created_by_user_id": "USR-1468",
+    "reported_by_role": "Principal Data Engineer",
+    "raw_description": "Need one Alteryx Designer license transferred from my old laptop asset record to the new machine. Installer works, activation doesn't. Deadline is close for the quarterly reconciliation flow.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Software_Licensing",
+      "priority": "P3",
+      "assigned_team": "Software Asset Management"
+    }
+  },
+  {
+    "ticket_id": "INC-940",
+    "created_date_time": "2026-05-02T12:45:57Z",
+    "created_by_user_id": "USR-9255",
+    "reported_by_role": "Technical Program Manager",
+    "raw_description": "Visio desktop app won't open diagrams anymore because it says my subscription doesn't include Plan 2, even though I had it last month. Need to edit architecture docs for steering committee review.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Software_Licensing",
+      "priority": "P3",
+      "assigned_team": "Software Asset Management"
+    }
+  },
+  {
+    "ticket_id": "INC-941",
+    "created_date_time": "2026-05-03T07:36:12Z",
+    "created_by_user_id": "USR-5159",
+    "reported_by_role": "Security Compliance Analyst",
+    "raw_description": "Please provision Beyond Compare license for audit evidence diffs. Free tools are getting blocked by endpoint policy and I need a sanctioned comparison tool this week.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Low"
+    },
+    "routing_classification": {
+      "category": "Software_Licensing",
+      "priority": "P4",
+      "assigned_team": "Software Asset Management"
+    }
+  },
+  {
+    "ticket_id": "INC-942",
+    "created_date_time": "2026-05-03T10:59:49Z",
+    "created_by_user_id": "USR-3670",
+    "reported_by_role": "Android Developer",
+    "raw_description": "Renewal needed for Genymotion SaaS/device cloud access. My team account shows expired and our regression suite can't run the tablet profile set anymore.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Software_Licensing",
+      "priority": "P3",
+      "assigned_team": "Software Asset Management"
+    }
+  },
+  {
+    "ticket_id": "INC-943",
+    "created_date_time": "2026-05-04T11:13:05Z",
+    "created_by_user_id": "USR-2486",
+    "reported_by_role": "Sales Engineer",
+    "raw_description": "My Tableau Creator license vanished after org cleanup. I can still log in but only viewer features are enabled, which means I can't update the customer usage workbook before tomorrow's QBR.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Software_Licensing",
+      "priority": "P2",
+      "assigned_team": "Software Asset Management"
+    }
+  },
+  {
+    "ticket_id": "INC-944",
+    "created_date_time": "2026-05-04T15:41:22Z",
+    "created_by_user_id": "USR-8837",
+    "reported_by_role": "UX Researcher",
+    "raw_description": "Requesting Figma Dev Mode seat. Right now I can only inspect limited frames and it's slowing handoff reviews with engineering. Manager approved in chat if you need proof.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Low"
+    },
+    "routing_classification": {
+      "category": "Software_Licensing",
+      "priority": "P4",
+      "assigned_team": "Software Asset Management"
+    }
+  },
+  {
+    "ticket_id": "INC-945",
+    "created_date_time": "2026-05-01T09:21:40Z",
+    "created_by_user_id": "USR-4982",
+    "reported_by_role": "DevOps Engineer",
+    "raw_description": "Jenkins runner `linux-xlarge-03` is failing every build in the release folder with 'no space left on device' during Docker layer extraction. Cleanup job didn't run last night. Multiple teams are blocked.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "CICD_Pipeline_DevOps",
+      "priority": "P1",
+      "assigned_team": "DevOps Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-946",
+    "created_date_time": "2026-05-01T16:06:31Z",
+    "created_by_user_id": "USR-7297",
+    "reported_by_role": "Full Stack Engineer",
+    "raw_description": "GitHub Actions deployments to staging started failing after the new OIDC policy rollout. The workflow can't exchange token for AWS creds and dies at `configure-aws-credentials`. Same commit worked yesterday, so something infra-side changed.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "CICD_Pipeline_DevOps",
+      "priority": "P2",
+      "assigned_team": "DevOps Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-947",
+    "created_date_time": "2026-05-02T08:28:26Z",
+    "created_by_user_id": "USR-6114",
+    "reported_by_role": "Platform Engineer",
+    "raw_description": "ArgoCD syncs are stuck in Unknown for the `customer-profile` app. Repo server logs show x509 cert validation errors when talking to the internal Git server. Need this unblocked before we can promote the hotfix.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "CICD_Pipeline_DevOps",
+      "priority": "P2",
+      "assigned_team": "DevOps Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-948",
+    "created_date_time": "2026-05-02T13:57:04Z",
+    "created_by_user_id": "USR-8572",
+    "reported_by_role": "Release Engineer",
+    "raw_description": "Our self-hosted GitLab runner on Windows is suddenly stuck in offline status after patching. Service is installed but job executor never registers back. I already restarted twice. pretty stuck here.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "CICD_Pipeline_DevOps",
+      "priority": "P3",
+      "assigned_team": "DevOps Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-949",
+    "created_date_time": "2026-05-03T09:07:58Z",
+    "created_by_user_id": "USR-3408",
+    "reported_by_role": "SDET",
+    "raw_description": "Nightly pipeline for UI regression is hanging at the Playwright browser download step because egress to the artifact mirror times out from the runner subnet. This only happens in CI, local dev is fine.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "CICD_Pipeline_DevOps",
+      "priority": "P3",
+      "assigned_team": "DevOps Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-950",
+    "created_date_time": "2026-05-03T14:49:39Z",
+    "created_by_user_id": "USR-4627",
+    "reported_by_role": "Cloud Engineer",
+    "raw_description": "Terraform Cloud run queue for workspace `network-foundation-prod` is locked by a stale plan from a canceled run. We can't apply the firewall rule change until the state lock is cleared.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "CICD_Pipeline_DevOps",
+      "priority": "P2",
+      "assigned_team": "DevOps Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-951",
+    "created_date_time": "2026-05-04T08:36:10Z",
+    "created_by_user_id": "USR-1999",
+    "reported_by_role": "Principal Engineer",
+    "raw_description": "Buildkite agent pool `macos-signing` has zero healthy agents, so notarization/signing for desktop releases is blocked. Today's release candidate cannot go out unless the pool is restored.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "CICD_Pipeline_DevOps",
+      "priority": "P1",
+      "assigned_team": "DevOps Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-952",
+    "created_date_time": "2026-05-04T17:02:44Z",
+    "created_by_user_id": "USR-5733",
+    "reported_by_role": "Software Engineer II",
+    "raw_description": "Need a new protected branch rule exemption added for the `hotfix/*` pattern in GitHub Enterprise. Our emergency patch workflow is blocked because the pipeline bot account can't push the version bump commit.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Low"
+    },
+    "routing_classification": {
+      "category": "CICD_Pipeline_DevOps",
+      "priority": "P4",
+      "assigned_team": "DevOps Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-953",
+    "created_date_time": "2026-05-01T10:04:13Z",
+    "created_by_user_id": "USR-7088",
+    "reported_by_role": "Senior Data Engineer",
+    "raw_description": "Nightly AWS Glue job `glue-curated-orders` failed after we enabled partition projection on the S3-backed table. Athena can see the paths, but Glue crawler/job throws 'partition values not found for key dt'. Need help untangling the projection config vs job script.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Database_DataEng_Issues",
+      "priority": "P2",
+      "assigned_team": "Data Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-954",
+    "created_date_time": "2026-05-01T12:56:01Z",
+    "created_by_user_id": "USR-4186",
+    "reported_by_role": "Analytics Engineer",
+    "raw_description": "Redshift connection from dbt Cloud keeps timing out on port 5439 after 5 mins, but only from the prod job environment. Manual SQL client from VPN works. Feels like SG or NACL pathing, not creds.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Database_DataEng_Issues",
+      "priority": "P2",
+      "assigned_team": "Data Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-955",
+    "created_date_time": "2026-05-02T08:59:46Z",
+    "created_by_user_id": "USR-1367",
+    "reported_by_role": "BI Engineer",
+    "raw_description": "The materialized view refresh on Postgres reporting db is failing with 'could not extend file: No space left on device'. Dashboards are now serving stale data and finance is already asking why numbers don't match.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Database_DataEng_Issues",
+      "priority": "P1",
+      "assigned_team": "DBA Team"
+    }
+  },
+  {
+    "ticket_id": "INC-956",
+    "created_date_time": "2026-05-02T14:15:28Z",
+    "created_by_user_id": "USR-6491",
+    "reported_by_role": "Data Analyst",
+    "raw_description": "Please restore table `sandbox.customer_attr_backup` or help recover yesterday's dropped partition. I fat-fingered a cleanup statement in dev, not prod, but I still need the data back for testing.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Database_DataEng_Issues",
+      "priority": "P3",
+      "assigned_team": "DBA Team"
+    }
+  },
+  {
+    "ticket_id": "INC-957",
+    "created_date_time": "2026-05-03T07:48:35Z",
+    "created_by_user_id": "USR-2284",
+    "reported_by_role": "ML Platform Engineer",
+    "raw_description": "Kafka Connect sink to Snowflake is backlogging millions of records because schema evolution on the `event_payload` column started rejecting messages after a new nested field was added. Consumers are falling behind fast.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Database_DataEng_Issues",
+      "priority": "P2",
+      "assigned_team": "Data Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-958",
+    "created_date_time": "2026-05-03T13:38:50Z",
+    "created_by_user_id": "USR-9870",
+    "reported_by_role": "Data Governance Lead",
+    "raw_description": "Apache Atlas lineage sync hasn't updated for 36 hours and newly published datasets aren't appearing in the catalog. No obvious UI error, just stale metadata everywhere. Need this fixed before governance review.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Database_DataEng_Issues",
+      "priority": "P3",
+      "assigned_team": "Data Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-959",
+    "created_date_time": "2026-05-04T09:42:17Z",
+    "created_by_user_id": "USR-5642",
+    "reported_by_role": "Staff Data Engineer",
+    "raw_description": "BigQuery federated query into Cloud SQL is erroring with `permission denied while opening external connection`. Service account definitely has BigQuery job user, but I suspect the connection resource IAM got reset during project migration.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "Medium"
+    },
+    "routing_classification": {
+      "category": "Database_DataEng_Issues",
+      "priority": "P3",
+      "assigned_team": "Data Platform"
+    }
+  },
+  {
+    "ticket_id": "INC-960",
+    "created_date_time": "2026-05-04T16:29:56Z",
+    "created_by_user_id": "USR-3106",
+    "reported_by_role": "Database Reliability Engineer",
+    "raw_description": "Aurora PostgreSQL read replica lag spiked to 40+ mins after the ETL burst and now our reporting API is timing out against stale replicas. Need someone to check replication slots / vacuum pressure ASAP because downstream teams are already impacted.",
+    "metadata": {
+      "hardware_or_software_flag": "Software",
+      "urgency_indicator": "High"
+    },
+    "routing_classification": {
+      "category": "Database_DataEng_Issues",
+      "priority": "P1",
+      "assigned_team": "DBA Team"
+    }
+  }
+]

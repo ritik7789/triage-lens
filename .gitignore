@@ -1,0 +1,13 @@
+.venv*/
+.hf_cache/
+.localappdata/
+
+__pycache__/
+*.py[cod]
+
+backend/chroma_store/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
